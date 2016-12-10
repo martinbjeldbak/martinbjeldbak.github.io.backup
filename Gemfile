@@ -8,6 +8,8 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 # This is the default theme for new Jekyll sites.
 gem 'minima', '~> 2.0'
 
+gem 'html-proofer'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
