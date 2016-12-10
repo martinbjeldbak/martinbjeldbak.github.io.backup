@@ -21,6 +21,11 @@ url: "http://martinbjeldbak.com"
 twitter_username: martinbjeldbak
 github_username:  martinbjeldbak
 
+disqus:
+  shortname: martinmadsen
+
+google_analytics: UA-44441352-1
+
 # Build settings
 markdown: kramdown
 theme: minima
