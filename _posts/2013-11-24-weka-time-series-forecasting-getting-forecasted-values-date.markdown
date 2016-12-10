@@ -33,7 +33,8 @@ The first method merely reads whatever the latest time the forecaster knows abou
 The second method advances the forecaster with one unit, a single day in this case.
 
 And here is the full copy-pastable example. All that is introduced, are the two methods above and a call to each on lines 61 and 77, respectfully:
-{% highlight java %}
+
+```java
 package dk.martinbmadsen.wekaTimeSeriesExample;
 
 import java.io.*;
@@ -131,7 +132,7 @@ public class TimeSeriesExample {
     return new DateTime((long)lm.advanceSuppliedTimeValue(dt.getMillis()));
   }
 }
-{% endhighlight %}
+```
 
 This post is inspired by a thread on pentaho's formus [here](http://forums.pentaho.com/showthread.php?89640-Weka-Programmatically-Get-Dates-along-with-Predicted-values). If you have any questions or comments, feel free to email me (me [at] martinbmadsen.dk) or write a comment on this page, and I will attempt to help you as much as possible.
 
