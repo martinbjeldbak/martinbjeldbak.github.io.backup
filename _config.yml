@@ -20,6 +20,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://martinbjeldbak.com"
 twitter_username: martinbjeldbak
 github_username:  martinbjeldbak
+post_image_path: /assets/posts
+image_path: /assets/images
 
 disqus:
   shortname: martinmadsen
